@@ -1,0 +1,41 @@
+After purchase open a ticket and wait to be whitelisted. Once you have been whitelisted do:
+/get-script and execute what your given. After you execute you can edit your config in your synapse workspace folder.
+
+
+Multi Roblox Instance Guide 
+- Using Multi Instance from WeAreDevs -
+1. Visit https://wearedevs.net/dinfo/Multiple%20Games
+2. Press "Download Now" 
+3. Press "Download Multiple Games"
+4. After downloading multiple games, make sure ALL roblox games/tabs are closed, and run "Multiple_ROBLOX.exe"
+5. Using a few web browsers, or incognito windows, launch each account
+6. You are done!
+
+- Using Alt Manager(recommended)-
+1. Visit https://github.com/ic3w0lf22/Roblox-Account-Manager
+2. On the right, you will see something called "releases", click on the one that has "Latest" next to it
+3. Once there, click "Roblox.Account.Manager.{number here}.zip" (In my case, its "Roblox.Account.Manager.3.2.zip")
+4. Once it has downloaded, extract the file to a folder (I recommend leaving the alt manager in the same area your synapse is in, for easier access)
+5. Once extracted, you should see three files. "Auto Update.exe", "RBX Alt Manager.exe", "RBX Alt Manager.exe.config". Double click "RBX Alt Manager.exe" and open it.
+6.  If you Are on windows, smartscreen may detect / defend. Click "more info", then "run anyway". 
+7. If an admin prompt for auto update pops up, just allow and let it finish.
+8. time for adding accounts! Select the "Add account" button. From there, you can do the following. Either enter your password, as if it were the ROBLOX website, OR, use a quick login code (Authorized through google or whichever web browser you've previously logged in as). 
+9. Once logged in, click the account. It should highlight the account. On the right, enter the place ID of the game you want to play, where it says "Place ID". Where it says Job ID, you can do the following. A, Leave it blank, and it will join a public server. B, get the Job ID (script required), and enter that, to join a certain server. B, enter your VIP link into the spot, which will automatically put you into your VIP server. 
+10. Done!
+
+_Written by Abaddon / 𝔄𝔟𝔞𝔡𝔡𝔬𝔫 𝔅𝔩𝔞𝔠𝔨#0610
+Dungeon Quest Multi Farm Guide
+1. Firstly, start off with adding ALL multi farm accounts to "Roblox account manager", if you are using that. You would be best grouping them together.
+2. To enable Multi farm, set "getgenv().multi_roblox", to true, like the following. "getgenv().multi_roblox = true""
+3.  To determine the host account (usually your main account), you need to use "getgenv().host_name_key". To set the account as host, simple do the following. "getgenv().host_name_key = {"usernamehere"}". This is the account that will create the dungeon. 
+4. To add your alt, you need add them to "getgenv().name_key_list". To do this, you do the following. (Cannot do bold due to the format) "getgenv().name_key_list = { 
+{"the name of your alt account"}
+}". This is the table which your alt accounts are whitelisted through. If the username is not in the table, they cannot join the dungeon.
+5.  To add multiple accounts, You are going to have to open it in a code editing software (I recommend Visual studio code), and do the following. For each account, create a comma infront of "{"the name of your alt account"}", then press enter. You then paste this,  " {"alt1"} ". You shall do the following, for the amount of alts you are using. Like the following,
+{"alt1"},
+{"alt2"},
+{"alt3"}
+}
+6. Your alts are now all whitelisted. Once you run the script (Autoexecute is best), they will automatically join the Host (Main account)'s dungeon.
+
+_Written by Abaddon / 𝔄𝔟𝔞𝔡𝔡𝔬𝔫 𝔅𝔩𝔞𝔠𝔨#0610
